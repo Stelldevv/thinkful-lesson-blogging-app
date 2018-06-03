@@ -1,14 +1,30 @@
 {
   "name": "blog_api1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "uuid": "^3.2.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stelldevv/thinkful-lesson-blogging-app.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Stelldevv/thinkful-lesson-blogging-app/issues"
+  },
+  "homepage": "https://github.com/Stelldevv/thinkful-lesson-blogging-app#readme",
+  "description": ""
 }
